@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/layout_margin10dp"
+    android:weightSum="10"
+
+
+    >
+
+    <CheckBox
+        android:id="@+id/search_num_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@color/colorlightyellow"
+
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:id="@+id/search_num_title"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_parcel_num"
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/search_name_title"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_parcel_nameonly"
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/search_rack_title"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_parcel_rack"
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+        <TextView
+            android:id="@+id/search_bin_title"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_parcel_bin"
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5.5"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:id="@+id/search_num"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/search_name"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/search_rack_num"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/text_size18sp"
+
+
+            /> <TextView
+            android:id="@+id/search_bin_num"
+            style="@style/search_text_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/text_size18sp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

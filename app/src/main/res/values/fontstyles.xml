@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="heading_text_view_style">
+        <item name="textviewfontName">robotolight.ttf</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="nav_text_view_style">
+        <item name="textviewfontName">robotolight.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="search_text_view_style">
+        <item name="textviewfontName">robotolight.ttf</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/colorlightyellow</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+
+    </style>
+    <style name="EditTextColorCustom" parent="@style/AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <!--<style name="drawer_text_view_style">-->
+        <!--<item name="textviewfontName">titillium_regular.ttf</item>-->
+    <!--</style>-->
+
+    <!--<style name="header_desc_text_view_style">-->
+        <!--<item name="textviewfontName">titillium_light.ttf</item>-->
+    <!--</style>-->
+
+    <!--<style name="header_heading_text_view_style">-->
+        <!--<item name="textviewfontName">titillium_regular.ttf</item>-->
+    <!--</style>-->
+
+    <!--<style name="desc_auto_view_style">-->
+        <!--<item name="autocompletetextfontName">titillium_regular.ttf</item>-->
+        <!--<item name="android:textSize">@dimen/text_size15sp</item>-->
+    <!--</style>-->
+
+    <!--<style name="desc_text_view_style">-->
+        <!--<item name="textviewfontName">titillium_light.ttf</item>-->
+        <!--<item name="android:lineSpacingExtra">5sp</item>-->
+    <!--</style>-->
+
+    <style name="fontawesome_text_view_style">
+        <item name="textviewfontName">fontawesome.ttf</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!--<style name="desc_text_view_style.regular">-->
+        <!--<item name="textviewfontName">titillium_regular.ttf</item>-->
+        <!--<item name="android:lineSpacingExtra">5sp</item>-->
+    <!--</style>-->
+
+    <style name="desc_edittext_view_style">
+        <item name="edittextfontName">robotolight.ttf</item>
+        <item name="android:drawablePadding">@dimen/layout_margin5dp</item>
+
+        <item name="android:textColorHint">@color/edithintColor1</item>
+        <item name="android:textColor">@color/edittextColor</item>
+
+    </style>
+    <style name="search_edittext_view_style">
+        <item name="edittextfontName">robotolight.ttf</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin10dp</item>
+
+        <item name="android:textColorHint">@color/edithintColor1</item>
+        <item name="android:textColor">@color/edittextColor</item>
+
+    </style>
+    <!--<style name="desc_edittext_view_style_dark">-->
+        <!--<item name="edittextfontName">titillium_light.ttf</item>-->
+        <!--<item name="android:textColorHint">@color/edittext_hint_dark_color</item>-->
+        <!--<item name="android:textColor">@color/edittext_text_dark_color</item>-->
+        <!--<item name="android:background">@drawable/apptheme_edit_text_holo_light</item>-->
+    <!--</style>-->
+
+    <style name="button_view_style">
+        <item name="buttonfontName">robotolight.ttf</item>
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:textColor">@color/white</item>
+         <item name="android:textColorHint">@color/white</item>
+
+    </style>
+<style name="wh_top_text_style" >
+
+    <item name="android:gravity">center</item>
+    <item name="android:background">@color/colorAccent</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:padding">@dimen/layout_margin10dp</item>
+
+</style>
+
+    <style name="dash_text_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_alignParentLeft">true</item>
+
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin10dp</item>
+        <item name="android:textSize">@dimen/text_size21sp</item>
+
+    </style>
+    <style name="dash_count_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_alignParentRight">true</item>
+
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin20dp</item>
+        <item name="android:textSize">@dimen/text_size32sp</item>
+
+    </style>
+    <style name="payment_collection_style">
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:paddingTop">@dimen/layout_margin5dp</item>
+        <item name="android:paddingBottom">@dimen/layout_margin5dp</item>
+        <item name="android:paddingLeft">@dimen/layout_margin15dp</item>
+        <item name="android:paddingRight">@dimen/layout_margin15dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:textSize">@dimen/text_size21sp</item>
+    </style>
+
+
+    <!--<style name="divider_style">-->
+        <!--<item name="android:layout_width">fill_parent</item>-->
+        <!--<item name="android:layout_height">1dp</item>-->
+        <!--<item name="android:background">@color/buttoncolor</item>-->
+        <!--<item name="android:textColor">@color/white</item>-->
+       <!---->
+    <!--</style>-->
+
+</resources>

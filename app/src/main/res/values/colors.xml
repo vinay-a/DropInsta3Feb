@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#293E54</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1B9F8D</color>
+    <color name="colorGray">#F1F1F1</color>
+    <color name="textColor">#293E54</color>
+    <color name="edittextColor">#293E54</color>
+    <color name="edithintColor">#3e5266</color>
+    <color name="edithintColor1">#A7B1B9</color>
+    <color name="buttonColor">#1B9F8D</color>
+    <color name="greenColor">#54B74E</color>
+    <color name="redColor">#ef4136</color>
+
+
+    <color name="accent">#004D40</color>
+    <color name="toolbar">#fff</color>
+    <color name="windowBackground">#FAFAFA</color>
+    <color name="sideMenuOptionDark">#d9d9d9</color>
+    <color name="sideMenuOptionLight">#f2f2f2</color>
+    <color name="darkGray">#555b60</color>
+    <color name="post_ad_button_color">#F7923A</color>
+    <color name="button_color">#00A54F</color>
+    <color name="notification_back_color">#fff</color>
+    <color name="title_text">#F59019</color>
+    <color name="white">#fff</color>
+    <color name="white50">#80ffffff</color>
+
+    <color name="black">#ff000000</color>
+    <color name="red">#d73249</color>
+    <color name="yellow">#ffcb00</color>
+    <color name="tab_selected_color">@android:color/white</color>
+    <color name="tab_normal_color">#c1c1c1</color>
+
+    <color name="homeaddparcel_back">#B31B9F8D</color>
+    <color name="homesearchparcel_back">#B3283C55</color>
+    <color name="colorlightyellow">#F1F0C7</color>
+    <color name="text_color">#7C7C7C</color>
+
+
+</resources>

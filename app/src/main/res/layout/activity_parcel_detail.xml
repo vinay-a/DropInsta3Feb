@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_appbar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/windowBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:id="@+id/barcode_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/barcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="#12312123" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="22 Nov 2016" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/address_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/barcode_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="#F1F1C5"
+                android:maxLines="3"
+                android:minLines="2"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="G-161, Sector-63, Near water tank, City-Noida, PIN - 201301, Uttar Pradesh" />
+
+            <TextView
+                android:id="@+id/payment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/redColor"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="100k"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/type_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/parcel_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bag" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/price_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/parcel_payment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1000K" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/delivery_status_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delivery Status" />
+
+            <TextView
+                android:id="@+id/delivery_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pending111" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/delivery_comment_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delivery_status_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delivery Comment" />
+
+            <TextView
+                android:id="@+id/delivery_comment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hello i tried your code but i cannot seem to get the receiver to be called when there is no internet. " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/receiver_name_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delivery_comment_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delivered To" />
+
+            <TextView
+                android:id="@+id/receiver_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Amit Rathi" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/receiver_name_lay"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/special_instruction"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hello i tried your code but i cannot seem to get the receiver to be called when there is no internet. " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/parcel_update"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:text="Update"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/parcel_delivered"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:text="Delivered"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

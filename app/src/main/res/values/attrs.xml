@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomFontTextView">
+        <attr name="textviewfontName" format="string" />
+   	</declare-styleable>
+   	 <declare-styleable name="CustomFontEditTextView">
+        <attr name="edittextfontName" format="string" />
+   	</declare-styleable>
+   	<declare-styleable name="CustomFontButtonView">
+        <attr name="buttonfontName" format="string" />
+   	</declare-styleable>
+   	 <declare-styleable name="CustomFontAutoCompleteTextView">
+        <attr name="autocompletetextfontName" format="string" />
+   	</declare-styleable>
+   
+   	
+   	
+   	
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="2dp"
+    >
+    <EditText
+        android:id="@+id/receiver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Collected By"
+        android:layout_margin="@dimen/layout_margin5dp"
+        android:visibility="gone"
+        />
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signature_pad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:penColor="@android:color/black"
+        android:layout_above="@+id/button_layout"
+        android:layout_below="@+id/receiver_name"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_above="@+id/cancelSign"
+        android:weightSum="2"
+
+
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:enabled="false"
+            android:layout_marginRight="1dp"
+            />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:enabled="false"
+            android:layout_marginLeft="1dp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/cancelSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Cancel"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginTop="2dp"
+        />
+
+</RelativeLayout>

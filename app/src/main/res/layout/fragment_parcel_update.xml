@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+
+    android:weightSum="10">
+
+    <include layout="@layout/progressbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center_vertical"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/parcel_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:layout_marginTop="10dp"
+                android:drawSelectorOnTop="false" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/parcel_status"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/darkGray" />
+
+
+            <EditText
+                android:id="@+id/delivery_comment"
+                style="@style/desc_edittext_view_style"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+
+                android:layout_below="@+id/divider2"
+                android:gravity="top|left"
+                android:hint="@string/comment_hint"
+                android:inputType="text"
+                android:singleLine="false"
+                android:maxLines="1"
+
+                />
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/delivery_comment"
+                android:layout_marginTop="@dimen/layout_margin30dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/submit"
+                android:textColor="@android:color/white" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>

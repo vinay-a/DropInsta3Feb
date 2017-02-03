@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tab_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+
+        <TextView
+            android:id="@+id/cash"
+            style="@style/payment_collection_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/payment_collection_cash"
+            android:textColor="@color/white"
+            android:maxLines="2"
+            />
+
+        <TextView
+            android:id="@+id/card"
+            style="@style/payment_collection_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorGray"
+
+            android:text="@string/payment_collection_card"
+            android:maxLines="2"
+            />
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/payment_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_lay"
+        android:layout_marginTop="@dimen/layout_margin10dp"
+        android:layout_marginLeft="@dimen/layout_margin10dp"
+        android:layout_marginRight="@dimen/layout_margin10dp"
+        android:overScrollMode="never"
+        android:visibility="visible"
+        />
+
+
+
+</RelativeLayout>

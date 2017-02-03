@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+  <include layout="@layout/headerlayout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/wh_save_all"
+        android:layout_below="@+id/header_root"
+        android:layout_margin="@dimen/layout_margin10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/rack_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                >
+
+                <LinearLayout
+                    android:id="@+id/rack_linear_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@color/colorPrimary"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+
+
+                    >
+
+                    <ImageView
+
+                        android:id="@+id/wh_home_scan_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/layout_margin5dp"
+                        android:src="@mipmap/camera"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/wh_home_scan_rack"
+                        style="@style/wh_top_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/text_size20sp"
+                        android:background="@color/colorPrimary"
+                        android:gravity="left|center_vertical"
+                        android:text="Click"
+
+
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/wh_home_rack_num"
+                    style="@style/fontawesome_text_view_style"
+                    android:layout_width="0dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="@dimen/layout_margin10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:textSize="@dimen/text_size20sp"
+                    android:background="@color/colorGray"
+                    android:hint="@string/bin_num" />
+
+            </LinearLayout>
+
+            <com.inerun.dropinsta.helper.ExpandableHeightListView
+                android:id="@+id/parcel_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rack_layout"
+                android:layout_marginTop="@dimen/layout_margin10dp"
+                />
+            <LinearLayout
+                android:id="@+id/addnewparcel_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/parcel_listview"
+                android:weightSum="10"
+                android:layout_marginTop="@dimen/layout_margin5dp"
+
+
+                >
+
+                <ImageView
+                    android:id="@+id/addnewparcel_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/buttonColor"
+                    android:padding="@dimen/layout_margin10dp"
+                    android:src="@mipmap/addparcel"
+
+
+                    />
+
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/addnewparcel_num"
+                    style="@style/fontawesome_text_view_style"
+                    android:layout_width="0dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="@dimen/layout_margin10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:textSize="@dimen/text_size20sp"
+                    android:background="@color/colorGray"
+                    android:hint="Parcel #" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <com.inerun.dropinsta.fontlib.CustomFontButton
+        android:id="@+id/wh_save_all"
+        style="@style/button_view_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/login_pass_edt"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:background="@color/buttonColor"
+        android:text="@string/save_all"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

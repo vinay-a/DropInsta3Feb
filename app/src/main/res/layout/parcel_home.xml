@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    >
+    <include layout="@layout/progressbar_layout" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:weightSum="10"
+       >
+
+        <RelativeLayout
+            android:id="@+id/resources_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:id="@+id/resources_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+
+
+                />
+
+
+            <ImageView
+                android:id="@+id/resources_imgstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/arrow_white"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_resources"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toLeftOf="@+id/resources_imgstyle"
+                android:textColor="@android:color/white"
+                android:text="Add Parcels"
+                android:textSize="@dimen/home_text_size"
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/podcast_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+
+            android:orientation="horizontal"
+            android:visibility="visible"
+
+            >
+
+            <ImageView
+                android:id="@+id/podcast_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+
+
+                />
+
+
+            <ImageView
+                android:id="@+id/podcast_imgstyle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/arrow_white"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_podcast"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toLeftOf="@+id/podcast_imgstyle3"
+                android:text="Search Parcels"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/home_text_size"
+
+
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

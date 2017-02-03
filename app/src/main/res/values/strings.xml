@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tigmoo International</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="delivered">DELIVERED</string>
+    <string name="deliver">Deliver</string>
+    <string name="pending">PENDING</string>
+    <string name="parcels_selected">%1$s selected</string>
+    <string name="no_parcel_error">No Parcels to Update</string>
+    <string name="selected_parcel_error">No Parcels Selected.</string>
+    <string name="total_parcels">Total Parcels</string>
+    <string name="payment_collection">Payment Collected</string>
+    <string name="customer_id_search">Customer #</string>
+    <string name="payment_received">PAYMENT RECEIVED</string>
+    <string name="total_payment">Total Payment</string>
+    <string name="transactionid">TRANSACTION #</string>
+    <string name="collected_by">COLLECTED BY</string>
+    <string name="payment_cash">CASH</string>
+    <string name="payment_card">CARD</string>
+    <string name="parcel_customer_name">Name: %1$s</string>
+    <string name="parcel_customer_id">Cust id: %1$s</string>
+    <string name="parcel_customer_address">Add: %1$s</string>
+    <string name="payment_collection_cash">CASH \n %1$s</string>
+    <string name="payment_collection_card">CARD SWIPE \n %1$s</string>
+    <string name="title_customer_search">Customer Search</string>
+    <string name="title_delivery_payment">Delivery Payment</string>
+    <string name="title_allparcels">Pending/Delivered</string>
+    <string name="different_parcels_error">Parcels from different customer cannot be selected</string>
+    <string name="parcel_updated_msg">Parcel Status has been Updated</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_transcid_error">Cannot Insert Transaction into database.</string>
+    <string name="permissions_missing">Some of permissions are not Granted</string>
+
+
+</resources>

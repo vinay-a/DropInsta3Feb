@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_2e61c2d426ee6552a32bbfe3297e52cc8a30d515/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b9e0ce6cef152c16b8bda3534dae5463b31d362a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_1880bd388bdba3c52ef56e4d84e361419aaf03fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_85ec9177603c3a15987952fe8c7666426e29d297/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7fa96031d9089ba63462af4a8526c94910c25793/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_fb9aaf938c20e8a7e15b8264b2c788d527ebdb98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_4d04423fea4ea5c3fe7ace7f50e197ecb5d0ed8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_6fc8cd2cb43d141d34b59052e79276befe0ef296/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_6a001b00d8f9367d32cfa5e8dae7d3c167120294/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_4f3eff6cf2fdd4976ffc4d73ce58311d2170d7f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ba9cf36ecedea1c42feab44ebfc26b5250fa6279/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_5161ab261a948e9fb35f2af91284b1df2dc32e92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_065927322ccb4e17e631b9a5fe2d11f1e6237057/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_53ea665485d98e430a6fb4d5066d80eac4654b7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/libs/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.9_fbf7e3e1aa6ac019f99bbae8e2110e51cf95f884/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_69298dc0618cd220f2031db86f064c0cd89f3ac6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.7.5_7660da6963313355d44c9da8a5817eb62fb8cd4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_5aadce30b559a06a2fae4527be399513e6af859b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_e51548fa434c7cb22384cbd0be2602b3c91b4046/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_0e2c46513c879365d700a363565f698ea2796946/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9faa861bce49304db6e6408200895bd4835aba95">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b2055ac2ee778c849abb63e46adfba9181663bed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.github.gcacace/signature-pad/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e38ceffed1fb752b3ab4f4b3678697ff1924c57">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.gcacace-signature-pad-1.2.0_25a6018a0d72baf98bff7321034a5b7904474b6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/libs/zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/2/zbar_4cd00fb9d51436711d847b9e8aa70e7e257d4fac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/libs/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.6_26b43a272a7914009521b92ea1f0df0ea4c037db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_9140b7f3f2da3c7efb12015ebec329a1df7a7997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/Android/SDK/android-sdks/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_785c6aaa4fa88adb3b6fbdcf6ff3bf210d632370/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c8491d53f997bd9a1cab64a3aeb6c3fa4e5e2a9e">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a82c887fcc35908af04ea3a165f3b95b4609154d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/vinay/Documents/F Drive/AndroidStudioWorkSpace/DropInsta/DropInsta3Feb/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_0e24e7d95db091fc0206e57eb9901bd1f80012ba/classes.dex" />
+    </item>
+
+</items>

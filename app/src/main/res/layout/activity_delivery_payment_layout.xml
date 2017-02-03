@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/payment_received_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin10dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/payment_receieved_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="#F1F1C5"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:minLines="2"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/total_payment" />
+
+        <TextView
+            android:id="@+id/payment_receieved_amount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size21sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/payment_cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/payment_received_layout"
+        android:layout_marginTop="@dimen/layout_margin20dp"
+        android:background="@drawable/rectangle_without_rounded_green"
+        android:drawableRight="@mipmap/arrow_white"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textSize="@dimen/text_size25sp"
+        android:text="@string/payment_cash"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/payment_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/payment_cash"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_without_rounded"
+        android:drawableRight="@mipmap/arrow_white"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textSize="@dimen/text_size25sp"
+        android:text="@string/payment_card" />
+
+
+    <EditText
+        android:id="@+id/payment_transcid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/payment_card"
+        android:layout_marginTop="@dimen/layout_margin20dp"
+
+
+        android:gravity="center_vertical"
+
+        android:hint="@string/transactionid"
+
+        android:padding="10dp"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/payment_collectedby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/payment_transcid"
+        android:layout_marginTop="@dimen/layout_margin20dp"
+
+
+        android:gravity="center_vertical"
+
+        android:hint="@string/collected_by"
+
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/parcel_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/parcel_deliver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            android:text="@string/deliver"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

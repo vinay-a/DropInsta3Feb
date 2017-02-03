@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    >
+
+    <include layout="@layout/progressbar_fullscreenlayout" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/root_appbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/windowBackground">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/progressBar"
+            android:background="@color/white">
+
+
+            <RelativeLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:paddingBottom="30dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/logo_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/layout_margin25dp"
+                    android:src="@mipmap/logo" />
+
+                <com.inerun.dropinsta.fontlib.CustomFontTextView
+                    android:id="@+id/title_login"
+                    style="@style/heading_text_view_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo_login"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/layout_margin75dp"
+
+
+                    android:text="@string/action_login_caps"
+
+
+                    android:textSize="@dimen/text_size24sp" />
+
+                <com.inerun.dropinsta.fontlib.CustomFontEditText
+                    android:id="@+id/login_email_edt"
+                    style="@style/desc_edittext_view_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/title_login"
+                    android:layout_marginTop="25dp"
+
+                    android:hint="@string/email_hint"
+
+
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+
+                <com.inerun.dropinsta.fontlib.CustomFontEditText
+                    android:id="@+id/login_pass_edt"
+                    style="@style/desc_edittext_view_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/login_email_edt"
+
+                    android:layout_marginTop="@dimen/layout_margin10dp"
+
+                    android:hint="@string/password_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+
+                    />
+
+
+                <com.inerun.dropinsta.fontlib.CustomFontButton
+                    android:id="@+id/login_btn"
+                    style="@style/button_view_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/login_pass_edt"
+                    android:layout_marginTop="@dimen/layout_margin10dp"
+                    android:background="@color/buttonColor"
+                    android:text="@string/sign_in"
+                    android:textColor="@android:color/white" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

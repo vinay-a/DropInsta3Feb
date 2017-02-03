@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usero">&#xf2c0;</string>
+    <!-- String for Font AweSome Icons -->
+    <string name="font_awesome_home_icon">&#xf015;</string>
+    <string name="font_awesome_profile_icon">&#xf007;</string>
+    <string name="font_awesome_logbook_icon">&#xf02d;</string>
+    <string name="font_awesome_exit_icon">&#xf08b;</string>
+    <string name="font_awesome_marker_icon">&#xf041;</string>
+    <string name="font_awesome_airplane_icon">&#xf072;</string>
+    <string name="font_awesome_cross_icon">&#xf00d;</string>
+    <string name="font_awesome_suitcase_icon">&#xf0f2;</string>
+    <string name="font_awesome_pound_icon">&#xf154;</string>
+    <string name="font_awesome_star_icon">&#xf005;</string>
+    <string name="font_awesome_work_icon">&#xf0b1;</string>
+    <string name="font_awesome_delete_icon">&#xf014;</string>
+    <string name="font_awesome_check_icon">&#xf00c;</string>
+    <string name="font_awesome_radio_tick_icon">&#xf192;</string>
+    <string name="font_awesome_radio_untick_icon">&#xf10c;</string>
+    <string name="font_awesome_edit_icon">&#xf044;</string>
+    <string name="font_awesome_pencil_icon">&#xf044;</string>
+    <string name="font_awesome_info_icon">&#xf05a;</string>
+    <string name="font_awesome_flight_icon">&#xf072;</string>
+    
+</resources>

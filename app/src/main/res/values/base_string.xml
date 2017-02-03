@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!--General strings-->
+    <string name="title_login">Login</string>
+    <string name="address_fname_hint">First Name *</string>
+    <string name="address_lname_hint">Last Name *</string>
+    <string name="address_email_hint">Email Id *</string>
+    <string name="address_company_hint">Company</string>
+    <string name="address_phone_hint">Phone *</string>
+    <string name="address_address1_hint">Address 1 *</string>
+    <string name="address_city_hint">City *</string>
+    <string name="address_state_hint">State *</string>
+    <string name="address_country_hint">Country *</string>
+    <string name="action_skip">skip</string>
+    <string name="welcome_register">REGISTER</string>
+    <string name="email_hint">Email Id</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register">Create Account</string>
+    <string name="forgot_pass">Need Help?</string>
+    <string name="signin_progresss">Signing in....</string>
+    <string name="fname_hint">First Name</string>
+    <string name="lname_hint">Last Name</string>
+
+
+
+    <!--Exception message string-->
+
+    <string name="exception_alert_message_network">Unable to get data from network. Check your internet connectivity.</string>
+    <string name="exception_alert_message_parsing_exception">Improper message from server. Please try again later.</string>
+    <string name="exception_alert_message_timeout_exception">Server is not responding properly. Please try again later.</string>
+    <string name="exception_alert_message_internal_server_error">Internal Server Error: Unable to fetch data.</string>
+    <string name="exception_alert_message_error">Some error occured, Please try again later.</string>
+    <string name="activity_base_alert_message_unknown_host_exception">Intenet connectivity problem. Please check your internet connection.</string>
+    <string name="activity_base_alert_message_no_store_data">It seems we are unable to get data from Server. Please try again later.</string>
+    <string name="exception_alert_message_illegalstate_exception">Unable to read data either from server or device. Please try again later.</string>
+    <string name="exception_alert_message_sqllite_exception">An Exception has been occurred while accessing Database. Please try again later.</string>
+    <string name="server_exception_error_message_general">It seems there is an error in server.</string>
+    <string name="server_exception_error_message_resource_not_found">Requested resource does not exist on server.</string>
+    <string name="server_exception_error_message_forbidden">Requested resource is forbidden.</string>
+
+<!--Error message String-->
+
+    <string name="error_email_field">Email cannot be empty.</string>
+    <string name="error_invalid_email_field">Invalid email, Please enter valid email id.</string>
+
+    <string name="error_password_field">Password cannot be empty.</string>
+    <string name="error_password_field_length">Please enter minimum 6-character password.</string>
+    <string name="error_fname_field">First Name cannot be empty.</string>
+    <string name="error_lname_field">Last Name cannot be empty.</string>
+    <string name="error_confirm_password_field">Password didn\'t match.</string>
+
+
+
+
+    <string name="action_home">Home</string>
+    <string name="action_menu">menu</string>
+    <string name="action_account">My Account</string>
+    <string name="action_visit_website">Breakthrough Website</string>
+    <string name="action_chng_lang">Change Language</string>
+    <string name="fb_page">Facebook Page</string>
+    <string name="title_emailus">Contact Us</string>
+    <string name="action_login">Login</string>
+    <string name="action_login_caps">LOGIN</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_myorder">My Order</string>
+    <string name="action_wishlist">My Wishlist</string>
+
+
+
+
+
+    <string name="menu1">Home</string>
+    <string name="menu2">Browse Ads</string>
+    <string name="menu3">Post Ad</string>
+    <string name="menu4">Messages</string>
+    <string name="menu5">My Account</string>
+    <string name="menu6">My Ads</string>
+    <string name="menu7">Privacy Policy</string>
+    <string name="menu8">Terms of Use</string>
+    <string name="menu9">Contact Us</string>
+    <string name="menu10">About Us</string>
+    <string name="menu11">Share App</string>
+
+
+
+    <!--Experimental-->
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Create</item>
+        <item>Read</item>
+        <item>Help</item>
+    </string-array>
+
+</resources>

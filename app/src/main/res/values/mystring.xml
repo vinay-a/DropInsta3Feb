@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--custom colors-->
+    <color name="item_odd_color">#F37C20</color>
+
+    <string name="msg_logout">Logout Successfully.</string>
+    <string name="exit_msg">Please click BACK again to exit</string>
+    <string name="exception">Exception</string>
+    <string name="ok">OK</string>
+    <string name="submit">submit</string>
+    <string name="comment_hint">Comment</string>
+    <string name="error_receiver_name">Receiver name cannnot be empty</string>
+    <string name="error_transid">Transaction id cannnot be empty</string>
+    <string name="error_status">Status cannot be empty.</string>
+    <string name="error_comment">Comment cannot be empty.</string>
+    <string name="error_list_empty">No data found</string>
+    <string name="payment_prepaid">N/A</string>
+    <string name="title_delivered_parcel">Delivered</string>
+    <string name="title_pending_parcel">Pending</string>
+    <string name="title_parcel_detail">Parcel Detail</string>
+    <string name="special_instructions_title">Special Instructions: %1$s</string>
+</resources>

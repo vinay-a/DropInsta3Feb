@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/layout_margin10dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/add_parcel_num"
+        style="@style/search_text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:text="@string/search_parcel_num"
+        android:textSize="@dimen/text_size18sp"
+        android:padding="@dimen/layout_margin10dp"
+
+
+        />
+    <EditText
+        android:id="@+id/add_parcel_num_edt"
+        style="@style/search_text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:text="@string/search_parcel_num"
+        android:textSize="@dimen/text_size18sp"
+        android:padding="@dimen/layout_margin10dp"
+        android:background="@color/white"
+        android:visibility="gone"
+
+
+        />
+
+
+    <ImageView
+        android:id="@+id/add_parcel_done"
+        android:padding="@dimen/layout_margin10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/greenColor"
+        android:scaleType="centerInside"
+        android:src="@mipmap/done"
+        android:textSize="@dimen/text_size18sp"
+        android:visibility="gone"
+
+
+        />
+    <ImageView
+        android:id="@+id/add_parcel_edit"
+        android:padding="@dimen/layout_margin10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerInside"
+        android:src="@mipmap/edit"
+        android:textSize="@dimen/text_size18sp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/add_parcel_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/redColor"
+        android:scaleType="centerInside"
+        android:src="@mipmap/delete"
+        android:textSize="@dimen/text_size18sp"
+
+
+        />
+
+
+</LinearLayout>

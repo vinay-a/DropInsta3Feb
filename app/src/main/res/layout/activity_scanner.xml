@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="#A9A9A9"
+
+
+        />
+
+    <View
+        android:id="@+id/cameraFocusview"
+        android:layout_width="300dp"
+
+        android:layout_centerInParent="true"
+        android:layout_height="4dp"
+        android:layout_centerVertical="true"
+        android:background="#f00"
+
+
+        />
+
+    <TextView
+        android:id="@+id/scanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Touch To Focus"
+        android:layout_above="@+id/cameraPreview"
+        style="@style/heading_text_view_style"
+
+        android:textColor="@android:color/background_dark"></TextView>
+
+    <Button
+        android:id="@+id/ScanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Scan"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        style="@style/button_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fragment_layout_margin5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+
+        android:text="Cancel"
+
+        />
+</RelativeLayout>

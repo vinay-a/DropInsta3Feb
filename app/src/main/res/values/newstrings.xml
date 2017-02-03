@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_invalid_user">Invalid User</string>
+    <string name="save_all">SAVE ALL</string>
+    <string name="add_new">Add New</string>
+    <string name="search_parcel">Search Parcels</string>
+
+    <string name="search_parcel_email">Email Id</string>
+    <string name="search_parcel_contact">Phone No</string>
+    <string name="search_parcel_custid">Customer Id</string>
+    <string name="search_parcel_search">Search</string>
+    <string name="search_parcel_num">Parcel #</string>
+    <string name="search_parcel_name">Customer Name</string>
+    <string name="search_parcel_nameonly">Name</string>
+    <string name="search_parcel_rack">Rack No</string>
+    <string name="search_parcel_bin">Bin No</string>
+    <string name="search_error">No Search Results</string>
+    <string name="select_all">Select All</string>
+    <string name="select_none">Select None</string>
+    <string name="add_parcel_error">Please add atleast one parcel</string>
+    <string name="add_rack_error">Please scan Rack</string>
+    <string name="saved_success">Saved Successfully</string>
+    <string name="exception_report">Something went wrong! Please open the app again.</string>
+    <string name="rack_num">Rack #</string>
+    <string name="bin_num">BIN #</string>
+    <string name="logout">Logout</string>
+    <string name="really_logout">Do you really want to Logout the app ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="update_parcel">Update Parcels</string>
+    <string name="update">Update</string>
+
+
+</resources>

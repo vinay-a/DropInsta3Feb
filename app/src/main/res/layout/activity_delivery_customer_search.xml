@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="@dimen/layout_margin10dp"
+    >
+    <EditText
+        android:textCursorDrawable="@drawable/color_cursor"
+       android:id="@+id/customer_search_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/layout_margin10dp"
+        android:drawableLeft="@mipmap/ic_action_search"
+        android:hint="@string/customer_id_search"
+        android:textColorHint="@color/colorGray"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size21sp"
+
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/customer_search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_search_edt"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/layout_margin5dp"
+        android:overScrollMode="never"
+        android:layout_above="@+id/btn_layout"
+
+
+        android:visibility="visible" />
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/parcel_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/update"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/parcel_delivered"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            android:text="@string/deliver"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
